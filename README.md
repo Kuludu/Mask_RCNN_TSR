@@ -3,4 +3,11 @@
 
 ***
 
-模型文件`model.h5`未上传。
+* `model.h5`模型文件
+* `static`静态文件及结果
+* `mrcnn`[https://github.com/matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
+* `templates`前端模板
+* `app.py`主程序
+
+时间仓促，做的比较粗糙，见谅。
+

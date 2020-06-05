@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="static/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/bootstrap.min.js"></script>
+		<script src="static/js/fileinput.min.js"></script>
+		<title>Mask R-CNN图像识别</title>
+	</head>
+	<body>
+		<header>
+			<nav class="container navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand">Mask R-CNN图像识别</a>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="results">结果</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div class="container">
+			<div class="file-loading">
+				<input id="upload" name="image" type="file" class="file" multiple="true">
+			</div>
+		</div>
+
+	<script>
+		$("#upload").fileinput({
+			'uploadUrl': '/api/getResult',
+			'showUpload': true,
+			'allowedFileExtensions': ['png']
+		});
+	</script>
+
+	</body>
+</html>

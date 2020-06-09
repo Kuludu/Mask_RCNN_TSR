@@ -3,7 +3,7 @@
 
 ***
 
-* `model.h5`模型文件
+* `model.h5`模型文件（文件较大，请在release中下载）
 * `static`静态文件及结果
 * `mrcnn`[https://github.com/matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
 * `templates`前端模板

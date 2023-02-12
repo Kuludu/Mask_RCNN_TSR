@@ -7,6 +7,6 @@ scikit_image==0.16.2
 h5py==2.8.0
 scipy==1.4.1
 imgaug
-ipython==7.16.3
+ipython==8.10.0
 Pillow
 skimag
